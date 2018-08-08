@@ -1,0 +1,19 @@
+---
+layout: post
+title: "标题"
+date: 时间
+description: "简介"
+tag: 分类 
+---
+##大字
+###蓝色条幅
+```代码分隔符号
+>横幅格式
+<!--more-->后面内容不会显示
+[显示名字](连接)
+[显示连接并可以点击)
+`单行代码
+插入图片
+![](/images/posts/Wifilist/PastedGraphic.png)
+空格<br>回车
+*等于大圆点
