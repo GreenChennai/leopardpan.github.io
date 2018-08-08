@@ -730,8 +730,8 @@ img::-moz-selection {
     display: inline-block;
     position: relative;
     width: 100%;
-    border-color: #666;
-    color: azure;
+    border-color: azure;
+    color: #ffffff;
     /*opacity: .8; */
   }
 
