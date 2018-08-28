@@ -1,10 +1,21 @@
 ---
 layout: post
-title: "如何用Github上传材质"
+title: "材质教程"
 date: 2018-08-11 
-description: "用github来上传材质"
-tag: Github 
----   
+description: "材质教程"
+tag: 我的世界教程 
+--- 
+
+* [我的世界命令](https://www.thelunai.ml/2018/08/MC/)
+* [我的世界Lore教程](https://www.thelunai.ml/2018/08/Lore/)
+* 我的世界自定义物品材质教程
+* [我的世界传送门教程](https://www.thelunai.ml/2018/08/csm/)
+* [我的世界NPC教程](https://www.thelunai.ml/2018/08/NPC/)
+* [怪物教程01一个基础怪物](https://www.thelunai.ml/2018/08/gw01/)
+* [怪物教程02Options属性设置](https://www.thelunai.ml/2018/08/gw02/)
+* [怪物教程03怪物的AI和派系设置](https://www.thelunai.ml/2018/08/gw03/)
+* [怪物教程04怪物的技能和特效](https://www.thelunai.ml/2018/08/gw04/)
+  
 
 ### 材质包下载
 
