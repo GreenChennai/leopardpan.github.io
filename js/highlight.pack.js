@@ -34,3 +34,27 @@
         }
     }
 }());
+//音乐播放
+<div id="MerryChristmasMusicCtrl" date-playCtrl="pause"></div>
+<style>
+     #MerryChristmasMusicCtrl{width:25px;height:118px;text-align:center;font-size:14px;font-family:微软雅黑;position: fixed;z-index: 9999;background:#444;color:#fff;cursor: pointer;right:0;top:30%;border-radius: 4px;border:1px solid #000; display: none;}
+</style>
+<script>
+    var MerryChristmasMusic=document.createElement("audio");
+    MerryChristmasMusic.src="http://m2.music.126.net/RLgypZOeXF0W2HEUIA0Wpg==/5959353022986536.mp3";
+    MerryChristmasMusic.loop="loop";
+    MerryChristmasMusic.play();
+    $("#MerryChristmasMusicCtrl").show();
+    $("#MerryChristmasMusicCtrl").html("暂停播放音乐");
+    $("#MerryChristmasMusicCtrl").click(function  () {
+        if ($("#MerryChristmasMusicCtrl").attr("date-playCtrl")=="pause") {
+            MerryChristmasMusic.pause();
+            $("#MerryChristmasMusicCtrl").html("继续播放音乐");
+            $("#MerryChristmasMusicCtrl").attr("date-playCtrl","play");
+        }else{
+            MerryChristmasMusic.play();
+            $("#MerryChristmasMusicCtrl").html("暂停播放音乐");
+            $("#MerryChristmasMusicCtrl").attr("date-playCtrl","pause");
+        };
+    });
+</script>
