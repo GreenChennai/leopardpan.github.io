@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "腾怕小说"
+title: "爬小说"
 date: 2018-10-02
 description: "一个免费看小说的软件"
 tag: 破解软件
