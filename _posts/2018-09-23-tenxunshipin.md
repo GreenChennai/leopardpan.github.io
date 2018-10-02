@@ -16,7 +16,6 @@ tag: 破解软件
 
 ### 演示与下载
 
-![](/images/boke/tenxunship/tenxun.jpg)
 
 * 
 * [点我下载](https://pan.baidu.com/s/1E51qR2d9zaSrHfrM-cGANg)
