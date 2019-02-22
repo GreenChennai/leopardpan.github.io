@@ -7,9 +7,9 @@ tag: 教程
 ---
 
 ### 使用本机WIFI功能进行DNS加速
-#####不需要软件
+##### 不需要软件
 
 * 首先打开Wifi界面
 * 然后长按你想要加速的Wifi
 
-![](images\boke\Daedalus\01)
+![](/images/boke/Daedalus/01.png)
