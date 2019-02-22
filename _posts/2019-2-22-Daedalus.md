@@ -142,7 +142,7 @@ tag: 教程
 ![](/images/boke/Daedalus/15.jpg)
 ![](/images/boke/Daedalus/16.jpg)
 
-* 我制作的 Hosts
+### 我制作的 Hosts
 
 * 上面的hosts虽然多,但是并不完善,我也做了一个hosts你们可以安装`最好去安装!!!`
 * 添加一个规则
