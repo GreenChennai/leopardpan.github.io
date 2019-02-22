@@ -1,0 +1,30 @@
+# Copyright (c) 2018-2019 Green_Chennai.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+# localhost name resolution is handled within DNS itself.
+127.0.0.1 localhost
+::1 localhost
+
+45.32.47.107 saber.love
+185.199.110.153 greenchennai.github.io
+185.199.110.153 www.thelunai.ml
+203.208.40.119 translate.google.cn
+# steam start
+223.119.217.234 store.steampowered.com
+223.119.217.234 api.steampowered.com
+184.87.133.2 steam-chat.com
+23.2.16.9 steamstore-a.akamaihd.net
+23.2.16.9 steamusercontent-a.akamaihd.net
+23.2.16.9 steamcommunity-a.akamaihd.net
+23.2.16.9 steamcdn-a.akamaihd.net
+23.2.16.9 steamuserimages-a.akamaihd.net
+
