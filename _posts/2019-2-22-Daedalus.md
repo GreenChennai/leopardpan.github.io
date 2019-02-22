@@ -12,4 +12,4 @@ tag: 教程
 * 首先打开Wifi界面
 * 然后长按你想要加速的Wifi
 
-![](/images/boke/Daedalus/01.png)
+![](/images/boke/Daedalus/01.jpg)
