@@ -214,12 +214,12 @@ function checkTexture(img) {
   var height = img.height
 
   if (width && (width & (width - 1)) !== 0)
-    errors.push('Texture width is not a power of 2.')
+    errors.push('材质宽度不是2的倍率.')
   if (height && (height & (height - 1)) !== 0)
-    errors.push('Texture height is not a power of 2.')
+    errors.push('材质高度不是2的倍率.')
 
   if (height != width)
-    errors.push('Texture isn\'t a square, width and height are different.')
+    errors.push('材质不是正方形，宽度和高度是不同的.')
 
   return errors
 
@@ -258,14 +258,14 @@ function checkContext(models, textures) {
         var texturename = tmp[tmp.length-1] + '.png'
 
         if (textureList.indexOf(texturename) == -1) {
-          model.contextErrors.push('Couldn\'t find texture "' + texturename + '".')
+          model.contextErrors.push('无法找到材质 "' + texturename + '".')
         } else {
 
           var texture = textures[texturename]
           texture.used = true
 
           if (texture.errors.length > 0 || texture.contextErrors.length > 0) {
-            model.contextErrors.push('Couldn\'t load texture "' + texturename + '", the texture is invalid.')
+            model.contextErrors.push('无法加载材质 "' + texturename + '", 这材质是无效的.')
           }
 
         }
@@ -281,7 +281,7 @@ function checkContext(models, textures) {
     var texture = textures[name]
 
     if (!texture.used) {
-      texture.contextErrors.push('The texture isn\'t used by any model.')
+      texture.contextErrors.push('这个材质目前没有模型可以使用.')
     }
 
   }

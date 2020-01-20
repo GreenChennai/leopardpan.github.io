@@ -59,7 +59,7 @@ var modal = {
               }
             } catch (e) {
               models[name] = {
-                errors: ["Couldn't parse model. " + e.message + "."],
+                errors: ["无法解析模型. " + e.message + "."],
                 parsed: false,
                 contextErrors: [],
                 data: {},
@@ -156,7 +156,7 @@ function createListElement(type, file, name) {
 
   html += '<div class="modal-list-right">'
   if (total > 0) {
-    html += '<span class="red">' + (total > 1 ? total + ' errors' : '1 error') +  '<svg><use xlink:href="#svg-dropdown"></svg></span>'
+    html += '<span class="red">' + (total > 1 ? total + ' 个错误' : '1 error') +  '<svg><use xlink:href="#svg-dropdown"></svg></span>'
   } else {
     html += '<span class="green">Loaded</span>'
   }
