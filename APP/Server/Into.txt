@@ -1,8 +1,5 @@
 【美图秀秀】8.5.5.5【美图秀秀】
-【美图秀秀介绍】
-测试
-第二行
-【美图秀秀介绍】
+【美图秀秀介绍】测试\n第二行【美图秀秀介绍】
 【VSCO】143【VSCO】
 【Snapseed】未登记【Snapseed】
 【MX Player Pro】1.9.24【MX Player Pro】
